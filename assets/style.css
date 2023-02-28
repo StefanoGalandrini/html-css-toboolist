@@ -11,8 +11,8 @@ body {
 }
 
 header {
-background-color: white;
-margin-bottom: 5rem;
+    background-color: white;
+    margin-bottom: 5rem;
 }
 
 main {
@@ -30,9 +30,8 @@ h1 {
 }
 
 hr {
-height: 5px;
-
-background-color: #cccccc;
+    height: 5px;
+    background-color: #cccccc;
 }
 
 .logo {
@@ -47,8 +46,8 @@ div.buttons {
 }
 
 li {
-list-style: none;
-margin: .5em 0;
+    list-style: none;
+    margin: .5em 0;
 }
 
 .button {
