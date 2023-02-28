@@ -19,6 +19,7 @@ main {
     max-width: 70vw;
     background-color: white;
     margin: 0 auto;
+    padding-bottom: 2rem;
     border-radius: 10px;
 }
 
@@ -44,6 +45,11 @@ section.buttons {
     margin-left: 5rem;
 }
 
+li {
+list-style: none;
+margin: .5em 0;
+}
+
 .button {
     vertical-align: middle;
     padding: 0.5rem 2rem;
@@ -66,4 +72,56 @@ section.buttons {
     background-color: white;
     color: lightgrey;
     border: 2px solid lightgrey;
+}
+
+.list-wrapper {
+    margin: 0 5rem;
+}
+
+.arrow-item {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+
+.checked {
+    line-height: 3rem;
+    color: green;
+    font-size: 1.5rem;
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 0 7px;
+}
+
+.unchecked {
+    color: red;
+    font-size: 1.5rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 0 7px;
+}
+
+.item {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-left: 0.5rem;
+    border-radius: 15px;
+
+}
+
+.editorial {
+    background-color: #47adf1;
 }
