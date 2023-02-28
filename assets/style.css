@@ -43,6 +43,7 @@ background-color: #cccccc;
 
 section.buttons {
     margin-left: 5rem;
+
 }
 
 li {
@@ -59,6 +60,7 @@ margin: .5em 0;
     font-size: 20px;
     font-weight: 700;
     border-radius: 15px;
+    box-shadow: 1px 1px 4px #555555;
 }
 
 .active {
@@ -72,6 +74,11 @@ margin: .5em 0;
     background-color: white;
     color: lightgrey;
     border: 2px solid lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .list {
