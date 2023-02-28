@@ -12,6 +12,14 @@ body {
 
 header {
 background-color: white;
+margin-bottom: 5rem;
+}
+
+main {
+    max-width: 70vw;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 h1 {
@@ -20,9 +28,42 @@ h1 {
     vertical-align: middle;
 }
 
+hr {
+height: 5px;
+
+background-color: #cccccc;
+}
+
 .logo {
     width: 6rem;
     margin: 1rem 1rem 1rem 2.5rem;
     vertical-align: middle;
+}
 
+section.buttons {
+    margin-left: 5rem;
+}
+
+.button {
+    vertical-align: middle;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.active {
+    margin: 1rem 0;
+    background-color: #47adf1;
+    color: white;
+    border: 2px solid #47adf1;
+}
+
+.inactive {
+    background-color: white;
+    color: lightgrey;
+    border: 2px solid lightgrey;
 }
