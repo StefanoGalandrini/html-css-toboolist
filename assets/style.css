@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #cccccc;
+    background-color: #dddddd;
     position: relative;
 }
 
@@ -23,47 +23,47 @@ main {
     border-radius: 10px;
 }
 
-h1 {
-    font-size: 4rem;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-hr {
-    height: 5px;
-    background-color: #cccccc;
-}
-
 .logo {
-    width: 6rem;
+    width: 4rem;
     margin: 1rem 1rem 1rem 2.5rem;
     vertical-align: middle;
 }
 
-div.buttons {
-    margin-left: 5rem;
+h1 {
+    font-size: 2.5em;
+    display: inline-block;
+    vertical-align: middle;
+}    
 
-}
+hr {
+    height: 3px;
+    background-color: #dddddd;
+}    
+
 
 li {
     list-style: none;
-    margin: .5em 0;
+    margin: 1em 0 1.75em;
+}
+
+div.buttons {
+    padding-left: 5rem;
 }
 
 .button {
+    display: inline-block;
     vertical-align: middle;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
+    margin: 1.5em 1em 1em 0;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 700;
     border-radius: 15px;
     box-shadow: 1px 1px 4px #555555;
 }
 
 .active {
-    margin: 1rem 0;
     background-color: #47adf1;
     color: white;
     border: 2px solid #47adf1;
@@ -75,58 +75,66 @@ li {
     border: 2px solid lightgrey;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .list {
-    margin: 3em 5rem 0;
+    padding-left: 5rem;
 }
 
 .item {
-    margin-top: 4.5em;
+    margin-top: 3.5em;
 }
 
+.arrow {
+    font-size: 0.75em;
+}
 .arrow-item {
-    font-size: 2rem;
+    font-size: 1.5em;
     font-weight: 900;
     line-height: 1.5em;
     margin-top: 1.5em 5rem;
 }
 
-.checked {
-    line-height: 3em;
-    color: green;
-    font-size: 1.5rem;
-    border: 2px solid green;
+.circle {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-width: 2px;
+    border-style: solid;
     border-radius: 50%;
-    padding: 0 7px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+.checked {
+    color: green;
+    font-size: 1em;
+    font-weight: 900;
+    border-color: green;
+    padding-top: 3px;
 }
 
 .unchecked {
-    line-height: 3em;
     color: red;
-    font-size: 1.5rem;
-    border: 2px solid red;
-    border-radius: 50%;
-    padding: 0 7px;
+    font-size: 1em;
+    font-weight: 900;
+    border-color: red;
+    padding-top: 3px;
 }
 
 .object {
-    font-size: 1.75rem;
+    font-size: 1.25em;
     font-weight: 600;
-    margin-left: 0.5rem;
+    vertical-align: middle;
 }
 
 .label {
-    font-size: 1rem;
+    font-size: 0.88em;
     font-weight: 600;
     color: white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.25rem;
     margin-left: 0.5rem;
-    border-radius: 15px;
-
+    border-radius: 20px;
+    vertical-align: middle;
 }
 
 .editorial {
